@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title> Home page </title>
+    <link rel="stylesheet" href="/Static/Css/style.css">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='Css/style.css') }}">
+
+</head>
+<body>
+
+    <header>
+        
+        <nav>
+            <div class="logo"> IBM Team ID :NM2023TMID05268</div>
+            <ul class="menu">
+                <li><a href="#">Home</a></li>
+                <li><a href="{{ url_for('classify') }}">Classify</a></li>
+                <li><a href="{{ url_for('team') }}">Team</a></li>
+                <li><a href="{{ url_for('about') }}">About</a></li>
+            </ul>
+        </nav>
+        
+    </header>
+
+    <main class="main"> 
+
+        <div class="web-title">
+            <h2> Deep Learning Model For Detecting Diseases In Tea Leaves</h2>
+            <p> Welcome to our website dedicated to Diseases in tea leaves refer to the various pathogenic conditions or abnormalities that can affect the health and growth of tea plants, leading to reduced yield, quality degradation, or even plant death. Tea plants are susceptible to a range of diseases caused by fungi, bacteria, viruses, and other pathogens. These diseases can impact different parts of the tea plant, including the leaves, stems, and roots.</p>
+        </div>
+
+        
+    </main>
+
+    <footer></footer>
+</body>
+</html>
